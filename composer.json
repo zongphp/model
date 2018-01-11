@@ -1,8 +1,8 @@
 {
   "name": "zongphp/model",
-  "description": "模型",
-  "type": "project",
+  "description": "数据库模型",
   "keywords": [
+    "zongphp",
     "模型",
     "model"
   ],
@@ -10,11 +10,12 @@
   "minimum-stability": "stable",
   "require": {
     "php": ">=5.4.0",
-    "zongphp/config": "~1.0",
-    "zongphp/db": "~1.0",
-    "zongphp/validate": "~1.0",
-    "zongphp/arr": "~1.0",
-    "zongphp/collection": "~1.0"
+    "zongphp/config": "~2.0",
+    "zongphp/db": "~2.0",
+    "zongphp/validate": "~2.0",
+    "zongphp/arr": "~2.0",
+    "zongphp/collection": "~2.0",
+    "nesbot/carbon": "^1.22"
   },
   "autoload": {
     "files": [
